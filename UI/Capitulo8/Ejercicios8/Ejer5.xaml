@@ -1,0 +1,34 @@
+﻿<Window x:Class="Cap8_9.UI.Capitulo8.Ejercicios8.Ejer5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap8_9.UI.Capitulo8.Ejercicios8"
+        mc:Ignorable="d"
+        Title="Ejercicio 5" Height="278" Width="515" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+            <!--CADENA 1-->
+            <Label Content="Cadena 1"/>
+            
+            <!--STACK PANEL QUE CONTINE EL BOTON ORDENAR Y EL TEXT BOX DE LA PRIMERA CADENA-->
+            <StackPanel Orientation="Horizontal">
+                <TextBox Name="Cadena1TextBox" Width="400" Height="20" Margin="5,0" HorizontalAlignment="Left"/>
+                <!--BOTON ORDENAR-->
+                <Button Name="OrdenarButton" Content="Ordenar" Width="60" Click="OrdenarButton_Click"/>
+            </StackPanel>
+            
+            <!--CADENA 2-->
+            <Label Content="Cadena 2"/>
+            <TextBox Name="Cadena2TextBox" Width="400" Height="20" Margin="5,0" HorizontalAlignment="Left"/>
+            
+            <!--TEXT BLOCK DONDE SE MOSTRARAN LAS CADENAS ORDENADAS-->
+
+            <TextBlock Name="CadenaOrdenadaTextBlock" Width="400" Height="70" Background="LightGray" HorizontalAlignment="Left" Margin="5,13,0,0" />
+
+            <!--BOTON PARA REGRESAR A LA VENTANA ATERIOR-->
+            <Button Name="AtrasButton" Content="Atras" Width="60" HorizontalAlignment="Left" Margin="5,18,0,0" Click="AtrasButton_Click" />
+
+        </StackPanel>
+    </Grid>
+</Window>

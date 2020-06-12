@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Cap8_9.UI.Capitulo8;
 
 namespace Cap8_9
 {
@@ -23,6 +24,18 @@ namespace Cap8_9
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Capitulo8Button_Click(object sender, RoutedEventArgs e)
+        {
+            Capitulo8 capitulo8 = new Capitulo8();
+            capitulo8.Show();
+            this.Close();
+        }
+
+        private void Capitulo9Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

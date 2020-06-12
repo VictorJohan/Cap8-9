@@ -10,11 +10,11 @@
         <StackPanel Orientation="Vertical" Margin="10,10,10,10">
             <StackPanel Orientation="Horizontal" Margin="0,-3,0,0" >
                 <Label Content="Capitulo 8"/>
-                <Button Name="Capitulo8Button" Content="Entrar" Width="65" Height="20" Margin="8,0"/>
+                <Button Name="Capitulo8Button" Content="Entrar" Width="65" Height="20" Margin="8,0" Click="Capitulo8Button_Click"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="0,-3,0,0">
                 <Label Content="Capitulo 9"/>
-                <Button Name="Capitulo9Button" Content="Entrar" Width="65" Height="20" Margin="8,0"/>
+                <Button Name="Capitulo9Button" Content="Entrar" Width="65" Height="20" Margin="8,0" Click="Capitulo9Button_Click"/>
             </StackPanel>
         </StackPanel>
     </Grid>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="Cap8_9.UI.Capitulo8.Capitulo8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap8_9.UI.Capitulo8"
+        mc:Ignorable="d"
+        Title="Capitulo 8" Height="148" Width="250" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+            <StackPanel Orientation="Horizontal" Margin="0,-3,0,0" >
+                <Label Content="Ejercicio 3"/>
+                <Button Name="Ejer3Button" Content="Entrar" Width="65" Height="20" Margin="8,0" Click="Ejer3Button_Click"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,-3,0,0">
+                <Label Content="Ejercicio 5"/>
+                <Button Name="Ejer5Button" Content="Entrar" Width="65" Height="20" Margin="8,0" Click="Ejer5Button_Click"/>
+            </StackPanel>
+
+            <Button Name="atrasButton" Content="Atras" Width="60" Height="20" HorizontalAlignment="Left" Margin="0,19,0,0" Click="atrasButton_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
