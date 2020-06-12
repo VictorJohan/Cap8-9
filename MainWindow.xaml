@@ -1,0 +1,22 @@
+﻿<Window x:Class="Cap8_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap8_9"
+        mc:Ignorable="d"
+        Title="Capitulos" Height="120" Width="250" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+            <StackPanel Orientation="Horizontal" Margin="0,-3,0,0" >
+                <Label Content="Capitulo 8"/>
+                <Button Name="Capitulo8Button" Content="Entrar" Width="65" Height="20" Margin="8,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,-3,0,0">
+                <Label Content="Capitulo 9"/>
+                <Button Name="Capitulo9Button" Content="Entrar" Width="65" Height="20" Margin="8,0"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+
+</Window>
