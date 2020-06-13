@@ -36,5 +36,12 @@ namespace Cap8_9.UI.Capitulo9
             ejer3.Show();
             this.Close();
         }
+
+        private void Ejer4Button_Click(object sender, RoutedEventArgs e)
+        {
+            Ejer4 ejer4 = new Ejer4();
+            ejer4.Show();
+            this.Close();
+        }
     }
 }
