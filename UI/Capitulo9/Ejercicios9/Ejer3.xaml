@@ -1,0 +1,57 @@
+﻿<Window x:Class="Cap8_9.UI.Capitulo9.Ejercicios9.Ejer3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap8_9.UI.Capitulo9.Ejercicios9"
+        mc:Ignorable="d"
+        Title="Ejercicio 4" Height="371" Width="732" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Margin="10,10,10,10">
+
+            <StackPanel Orientation="Vertical">
+
+                <Label Content= "Datos del dueño" FontWeight="Bold"/>
+
+                <Label Content="Nombre"/>
+                <TextBox Name="NombreTextBox" Width="200" Height="20" Margin="5,0"/>
+
+                <Label Content="Numero de Telefono"/>
+                <TextBox Name="TelefonoTextBox" Width="200" Height="20" Margin="5,0"/>
+
+                <Label Content="Edad"/>
+                <TextBox Name="EdadTextBox" Width="40" Height="20" HorizontalAlignment="Left" Margin="5,0"/>
+
+                <Label Content="Direccion"/>
+                <TextBox Name="DireccionTextBox" Width="200" Height="20" HorizontalAlignment="Left" Margin="5,0"/>
+
+                <Button Name="GuardarYMostrarButton" Content="Guardar y Mostrar" Width="110" HorizontalAlignment="Left" Margin="5,16,5,0" Click="GuardarYMostrarButton_Click"/>
+
+                <Button Name="AtrasButton" Content="Atras" Width="60" HorizontalAlignment="Left" Margin="5,31,5,0" Click="AtrasButton_Click" />
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Height="314" Margin="10,0,0,26">
+
+                <Label Content= "Datos de la Mascota" FontWeight="Bold"/>
+
+                <Label Content="Nombre"/>
+                <TextBox Name="NombreMascotaTextBox" Width="200" Height="20" Margin="5,0"/>
+
+                <Label Content="Raza"/>
+                <TextBox Name="RazaTextBox" Width="200" Height="20" Margin="5,0"/>
+
+                <Label Content="Color de pelo"/>
+                <TextBox Name="ColorPeloTextBox" Width="100" Height="20" HorizontalAlignment="Left" Margin="5,0"/>
+
+                <Label Content="Edad"/>
+                <TextBox Name="EdadMascotaTextBox" Width="40" Height="20" HorizontalAlignment="Left" Margin="5,0"/>
+
+            </StackPanel>
+            
+            <StackPanel Orientation="Vertical" Margin="15,10,0,0">
+                <TextBlock Name="ViewTextBlock" Width="228" Height="197" Background="LightGray"/>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>

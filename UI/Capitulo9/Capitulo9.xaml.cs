@@ -29,5 +29,12 @@ namespace Cap8_9.UI.Capitulo9
             ejer1.Show();
 
         }
+
+        private void Ejer3Button_Click(object sender, RoutedEventArgs e)
+        {
+            Ejer3 ejer3 = new Ejer3();
+            ejer3.Show();
+            this.Close();
+        }
     }
 }

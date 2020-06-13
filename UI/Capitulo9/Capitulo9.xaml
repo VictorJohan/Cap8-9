@@ -15,7 +15,7 @@
 
             <StackPanel Orientation="Horizontal" Margin="0,-3,0,0">
                 <Label Content="Ejercicio 3"/>
-                <Button Name="Ejer3Button" Content="Entrar" Width="65" Height="20" Margin="8,0"/>
+                <Button Name="Ejer3Button" Content="Entrar" Width="65" Height="20" Margin="8,0" Click="Ejer3Button_Click"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Margin="0,-3,0,0">
