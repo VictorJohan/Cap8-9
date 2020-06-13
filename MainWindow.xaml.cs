@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Cap8_9.UI.Capitulo8;
+using Cap8_9.UI.Capitulo9;
 
 namespace Cap8_9
 {
@@ -35,7 +36,9 @@ namespace Cap8_9
 
         private void Capitulo9Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Capitulo9 capitulo9 = new Capitulo9();
+            capitulo9.Show();
+            this.Close();
         }
     }
 }
